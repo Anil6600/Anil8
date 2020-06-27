@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Copy of Untitled",
+      "provenance": [],
+      "collapsed_sections": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Owet3C4wjikU",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 331
+        },
+        "outputId": "013d2d77-7037-41ce-8324-5c2705e5a008"
+      },
+      "source": [
+        " str1 = input(\" Enter your Own String : \")\n",
+        " \n",
+        "for i in range(len(str1)):\n",
+        "    print(\"The Character at %d Index Position = %c\" %(i, str1[i]))"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Please Enter your Own String : Anil Kumar Reddy\n",
+            "The Character at 0 Index Position = A\n",
+            "The Character at 1 Index Position = n\n",
+            "The Character at 2 Index Position = i\n",
+            "The Character at 3 Index Position = l\n",
+            "The Character at 4 Index Position =  \n",
+            "The Character at 5 Index Position = K\n",
+            "The Character at 6 Index Position = u\n",
+            "The Character at 7 Index Position = m\n",
+            "The Character at 8 Index Position = a\n",
+            "The Character at 9 Index Position = r\n",
+            "The Character at 10 Index Position =  \n",
+            "The Character at 11 Index Position = R\n",
+            "The Character at 12 Index Position = e\n",
+            "The Character at 13 Index Position = d\n",
+            "The Character at 14 Index Position = d\n",
+            "The Character at 15 Index Position = y\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
